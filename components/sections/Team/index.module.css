@@ -1,6 +1,6 @@
 .teamAnchor {
   position: absolute;
-  top: 3600px;
+  top: -130px;
 }
 
 .team {
@@ -8,6 +8,7 @@
   padding: 0 70px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .container {
@@ -39,7 +40,7 @@
 
 @media (max-width: 1200px) {
   .teamAnchor {
-    top: 4600px;
+    top: -100px;
   }
 
   .teamCards {
@@ -50,7 +51,7 @@
 
 @media (max-width: 550px) {
   .teamAnchor {
-    top: 5000px;
+    top: 0;
   }
 
   .team {

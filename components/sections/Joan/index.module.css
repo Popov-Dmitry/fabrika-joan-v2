@@ -21,13 +21,14 @@
 
 .joanAnchor {
   position: absolute;
-  top: 1800px;
+  top: 90px;
 }
 
 .joan {
   padding: 0 70px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .joanContainer {
@@ -117,7 +118,7 @@
 
 @media (max-width: 768px) {
   .joanAnchor {
-    top: 2700px;
+    top: 260px;
   }
 
   .joan {
@@ -131,7 +132,7 @@
 
 @media (max-width: 550px) {
   .joanAnchor {
-    top: 2200px;
+    top: 260px;
   }
 
   .demoHeader {

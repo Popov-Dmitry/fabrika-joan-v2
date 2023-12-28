@@ -1,11 +1,12 @@
 .questionsAnchor {
   position: absolute;
-  top: 4500px;
+  top: 100px;
 }
 
 .questions {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .container {
@@ -30,7 +31,7 @@
 
 @media (max-width: 960px) {
   .questionsAnchor {
-    top: 5600px;
+    top: 0;
   }
 
   .questionsTitle {

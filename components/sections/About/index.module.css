@@ -1,6 +1,6 @@
 .aboutAnchor {
   position: absolute;
-  top: 900px;
+  top: -130px;
 }
 
 .about {
@@ -8,6 +8,7 @@
   padding: 0 70px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .aboutContainer {
@@ -52,7 +53,7 @@
 
 @media (max-width: 768px) {
   .aboutAnchor {
-    top: 1000px;
+    top: 0;
   }
 
   .about {

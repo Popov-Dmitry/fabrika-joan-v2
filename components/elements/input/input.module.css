@@ -50,6 +50,15 @@
 }
 
 @media (max-width: 450px) {
+    .container {
+        height: 76px;
+    }
+
+    .label {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
     .input {
         font-size: 16px;
         line-height: 22px;

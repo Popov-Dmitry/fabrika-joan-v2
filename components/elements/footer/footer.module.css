@@ -60,6 +60,10 @@
     }
 
     .links {
-        gap: 24px;
+        gap: 8px;
+    }
+
+    .link {
+        font-size: 14px;
     }
 }

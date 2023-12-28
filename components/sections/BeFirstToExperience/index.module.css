@@ -21,3 +21,24 @@
 .title {
   font-size: 64px;
 }
+
+@media (max-width: 768px) {
+  .email {
+    padding: 0;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .email {
+    flex-direction: column;
+  }
+}

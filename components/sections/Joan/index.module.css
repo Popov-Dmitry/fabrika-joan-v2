@@ -116,16 +116,26 @@
 }
 
 @media (max-width: 768px) {
+  .joan {
+    padding: 90px 24px;
+  }
+
   .demoImage {
-    width: 960px;
-    height: 960px;
-    top: 63%;
+    display: none;
   }
 }
 
 @media (max-width: 550px) {
-  .joan {
-    padding: 90px 24px;
+  .demoHeader {
+    flex-direction: column;
+  }
+
+  .demoButton {
+    width: 100%;
+  }
+
+  .demoBody {
+    font-size: 16px;
   }
 
   .joanSubtitle {

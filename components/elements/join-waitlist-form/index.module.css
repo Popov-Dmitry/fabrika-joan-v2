@@ -30,3 +30,13 @@
   left: 0;
   top: 0;
 }
+
+@media (max-width: 450px) {
+  .emailInputs {
+    flex-direction: column;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+}

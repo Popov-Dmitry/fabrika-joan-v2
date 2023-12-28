@@ -69,7 +69,7 @@ const Joan = () => {
         <div className={styles.demo}>
           <div className={styles.demoHeader}>
             <Input placeholder="Try typing what you are building or selling" />
-            <Button text="Analyze" onClick={handleSubmit} />
+            <Button className={styles.demoButton} text="Analyze" onClick={handleSubmit} />
           </div>
           {(loading || response) && (
             <div className={styles.demoBody}>

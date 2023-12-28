@@ -1,6 +1,6 @@
 .questionsAnchor {
   position: absolute;
-  top: -84px;
+  top: 4500px;
 }
 
 .questions {
@@ -29,6 +29,10 @@
 }
 
 @media (max-width: 960px) {
+  .questionsAnchor {
+    top: 5600px;
+  }
+
   .questionsTitle {
     font-size: 32px;
     line-height: 40px;

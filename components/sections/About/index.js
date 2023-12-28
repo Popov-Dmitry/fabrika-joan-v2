@@ -15,7 +15,7 @@ const About = (props) => {
           <Button
             className={styles.talkToJoanButton}
             text="Try it yourself"
-            // href="#about"
+            href="#joan"
           />
         </div>
         <div className={styles.infoCards}>

@@ -1,6 +1,6 @@
 .teamAnchor {
   position: absolute;
-  top: -84px;
+  top: 3600px;
 }
 
 .team {
@@ -38,6 +38,10 @@
 }
 
 @media (max-width: 1200px) {
+  .teamAnchor {
+    top: 4600px;
+  }
+
   .teamCards {
     grid-template-columns: 1fr 1fr;
     gap: 32px;
@@ -45,6 +49,10 @@
 }
 
 @media (max-width: 550px) {
+  .teamAnchor {
+    top: 5000px;
+  }
+
   .team {
     padding: 90px 24px;
   }

@@ -21,7 +21,7 @@
 
 .joanAnchor {
   position: absolute;
-  top: -84px;
+  top: 1800px;
 }
 
 .joan {
@@ -116,6 +116,10 @@
 }
 
 @media (max-width: 768px) {
+  .joanAnchor {
+    top: 2700px;
+  }
+
   .joan {
     padding: 90px 24px;
   }
@@ -126,6 +130,10 @@
 }
 
 @media (max-width: 550px) {
+  .joanAnchor {
+    top: 2200px;
+  }
+
   .demoHeader {
     flex-direction: column;
   }

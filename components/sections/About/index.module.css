@@ -1,6 +1,6 @@
 .aboutAnchor {
   position: absolute;
-  top: -84px;
+  top: 900px;
 }
 
 .about {
@@ -51,6 +51,10 @@
 }
 
 @media (max-width: 768px) {
+  .aboutAnchor {
+    top: 1000px;
+  }
+
   .about {
     padding: 90px 24px;
   }
@@ -58,11 +62,5 @@
   .infoCards {
     gap: 16px;
     flex-direction: column;
-  }
-}
-
-@media (max-width: 450px) {
-  .aboutAnchor {
-    top: 32px;
   }
 }

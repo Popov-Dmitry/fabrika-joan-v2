@@ -1,0 +1,55 @@
+.teamAnchor {
+  position: absolute;
+  top: -84px;
+}
+
+.team {
+  margin-top: 207px;
+  padding: 0 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1370px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scheduleACallButton {
+  flex-shrink: 0;
+}
+
+.teamCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 18px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.teamCard {
+  z-index: 10;
+}
+
+@media (max-width: 1200px) {
+  .teamCards {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 550px) {
+  .team {
+    padding: 90px 24px;
+  }
+
+  .teamCards {
+    grid-template-columns: 1fr;
+  }
+}

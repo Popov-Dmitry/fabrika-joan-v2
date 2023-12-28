@@ -1,0 +1,40 @@
+.accordionContent {
+    padding: 24px 24px 24px 32px;
+    border-radius: 33px;
+    border: 2px solid #000;
+    border-bottom: 4px solid #000;
+    background: #FFF;
+}
+
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.accordionTitle {
+    color: #000;
+    font-family: var(--font-inter);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.accordionDescription {
+    color: #000;
+    font-family: var(--font-ibm-plex-mono);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+@media (max-width: 450px) {
+    .accordionTitle {
+        font-size: 16px;
+    }
+}

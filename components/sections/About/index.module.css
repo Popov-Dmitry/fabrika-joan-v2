@@ -1,0 +1,82 @@
+.aboutAnchor {
+  position: absolute;
+  top: -84px;
+}
+
+.about {
+  margin-top: 207px;
+  padding: 0 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContainer {
+  max-width: 1370px;
+  width: 100%;
+}
+
+.aboutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoCards {
+  margin-top: 29px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 26px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.infoCard {
+  flex: 1 0 40%;
+}
+
+.infoCard:nth-child(1) {
+  flex-grow: 0;
+  margin-right: 8px;
+}
+
+.infoCard:nth-child(3) {
+  border-left-width: 9px;
+}
+
+.tryItYourselfButton {
+  flex-shrink: 0;
+  width: 235px;
+}
+
+@media (max-width: 768px) {
+  .aboutLeftImage {
+    left: -200px;
+    top: 50px;
+  }
+
+  .aboutRightImage {
+    right: -200px;
+    top: initial;
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .team {
+    padding: 90px 24px;
+  }
+
+  .infoCards {
+    gap: 8px;
+  }
+
+  .aboutAnchor {
+    top: 32px;
+  }
+
+  .tryItYourselfButton {
+    margin-top: 24px;
+  }
+}

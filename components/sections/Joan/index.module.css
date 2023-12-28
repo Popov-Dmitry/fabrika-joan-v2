@@ -1,0 +1,135 @@
+@keyframes rotate {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
+}
+
+.joanAnchor {
+  position: absolute;
+  top: -84px;
+}
+
+.joan {
+  padding: 0 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.joanContainer {
+  max-width: 1370px;
+  width: 100%;
+  padding-top: 290px;
+  position: relative;
+}
+
+
+.joanSubtitle {
+  max-width: 768px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+  position: relative;
+  z-index: 1;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-top: 40px;
+}
+
+.demoImage {
+  position: absolute;
+  top: 225px;
+  right: 0;
+}
+
+.demoHeader {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.demoBody {
+  padding: 32px 32px 60px;
+  min-height: 400px;
+  border-radius: 33px;
+  border: 2px solid #000;
+  border-bottom: 4px solid #000;
+  background: #FFF;
+  position: relative;
+  color: #3D3029;
+  font-family: var(--font-ibm-plex-mono);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.spinner {
+  animation: rotate 2s linear infinite;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+}
+
+.spinnerHidden {
+  display: none;
+}
+
+.path {
+  stroke: rgb(147, 191, 236);
+  stroke-linecap: round;
+  animation: dash 1.5s ease-in-out infinite;
+}
+
+.join {
+  margin-top: 24px;
+  box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.25);
+  border-radius: 1000px;
+}
+
+@media (max-width: 768px) {
+  .demoImage {
+    width: 960px;
+    height: 960px;
+    top: 63%;
+  }
+}
+
+@media (max-width: 550px) {
+  .joan {
+    padding: 90px 24px;
+  }
+
+  .joanSubtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

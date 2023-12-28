@@ -1,0 +1,23 @@
+.email {
+  padding: 0 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.container {
+  max-width: 1037px;
+  height: 528px;
+  background-image: url("/rings.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 64px;
+}

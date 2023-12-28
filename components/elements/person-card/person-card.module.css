@@ -1,0 +1,52 @@
+.card {
+    border-radius: 33px;
+    border: 2px solid #000;
+    border-bottom: 4px solid #000;
+    background: #F3F3F3;
+    padding: 32px 24px;
+}
+
+.avatar {
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+.name {
+    color: #000;
+    font-family: var(--font-inter);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 84px;
+}
+
+.position {
+    color: #000;
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.description {
+    color: #000;
+    font-family: var(--font-ibm-plex-sans);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3px;
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .card {
+        padding: 24px;
+    }
+    .name {
+        font-size: 16px;
+    }
+}

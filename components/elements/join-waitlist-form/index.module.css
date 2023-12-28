@@ -1,0 +1,32 @@
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailInputs {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+.emailInput {
+  flex: 1;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  padding-right: 16px !important;
+}
+
+.submitButton {
+  flex-shrink: 0;
+  width: 235px;
+}
+
+.toaster {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
